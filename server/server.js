@@ -28,6 +28,9 @@ app.get('/data', (req, res) => {
 app.get('/', (req, res) => {
   res.send('Builder Dashboard Backend API is running.');
 });
+app.get('/login', (req, res) => {
+  res.send('This is the login endpoint. Please POST credentials to /login.');
+});
 
 app.listen(PORT, () => {
   console.log(`✅ Backend running at http://localhost:${PORT}`);
