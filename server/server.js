@@ -25,6 +25,10 @@ app.get('/data', (req, res) => {
   res.json(data);
 });
 
+app.get('/', (req, res) => {
+  res.send('Builder Dashboard Backend API is running.');
+});
+
 app.listen(PORT, () => {
   console.log(`✅ Backend running at http://localhost:${PORT}`);
 });
