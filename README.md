@@ -1,4 +1,4 @@
-## Builder Dashboard – Full Stack Web Application
+### Builder Dashboard – Full Stack Web Application
 
 A functional, full-stack dashboard showcasing builder and property data with interactive tables, maps, and navigation.
 
@@ -9,9 +9,9 @@ A functional, full-stack dashboard showcasing builder and property data with int
 
 -> Deployment:
                
-               Frontend: Netlify
+  Frontend: Netlify
 
-               Backend: Render
+  Backend: Render
                
 -> Map Data: OpenStreetMap
 
@@ -25,7 +25,7 @@ Backend (Render): https://builder-dashboard-ui-1.onrender.com/
 
 Backend (API Server)
 
--> Navigate to backend folder:
+# Navigate to backend folder:
 
 cd backend_api
 
@@ -33,7 +33,7 @@ npm install
 
 node server.js
 
--> API Endpoints:
+# API Endpoints:
 
 /login – POST route for login
 
@@ -41,7 +41,7 @@ node server.js
 
 Frontend (React Dashboard)
 
--> Navigate to frontend folder:
+# Navigate to frontend folder:
 
 cd react_dashboard_client
 
@@ -49,7 +49,7 @@ npm install
 
 npm run dev
 
--> Local Access:
+# Local Access:
 http://localhost:5173
 
 ## Key Features
