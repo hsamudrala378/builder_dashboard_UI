@@ -1,4 +1,5 @@
 ## Builder Dashboard – Full Stack Web Application
+
 A functional, full-stack dashboard showcasing builder and property data with interactive tables, maps, and navigation.
 
 ## Tech Stack Used
@@ -7,16 +8,21 @@ A functional, full-stack dashboard showcasing builder and property data with int
 -> Backend: Node.js, Express.js
 
 -> Deployment: Frontend: Netlify
+
                Backend: Render
+               
 -> Map Data: OpenStreetMap
 
 ## Live Project Links
+
 Frontend (Netlify): https://builder-dashboard-ui.netlify.app/
 
 Backend (Render): https://builder-dashboard-ui-1.onrender.com/
 
 ## Setup Instructions
+
 Backend (API Server)
+
 -> Navigate to backend folder:
 
 cd backend_api
@@ -26,11 +32,15 @@ npm install
 node server.js
 
 -> API Endpoints:
+
 /login – POST route for login
+
 /data – GET route serving dataset
 
 Frontend (React Dashboard)
+
 -> Navigate to frontend folder:
+
 cd react_dashboard_client
 
 npm install
@@ -58,6 +68,7 @@ http://localhost:5173
 -> Backend APIs for login and data endpoints
 
 ## Personal Contribution (Bonus Feature)
+
 -> Sidebar open/close toggle
 
 -> Floating chatbot widget
@@ -67,6 +78,7 @@ http://localhost:5173
 -> Clean layout despite missing original wireframes
 
 ## Challenges Faced
+
 -> Missing wireframes: Solved using industry-standard dashboard layouts
 
 -> Leaflet markers not rendering (fixed via data parsing)
