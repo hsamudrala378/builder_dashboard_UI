@@ -20,7 +20,9 @@ Backend (API Server)
 -> Navigate to backend folder:
 
 cd backend_api
+
 npm install
+
 node server.js
 
 -> API Endpoints:
@@ -30,7 +32,9 @@ node server.js
 Frontend (React Dashboard)
 -> Navigate to frontend folder:
 cd react_dashboard_client
+
 npm install
+
 npm run dev
 
 -> Local Access:
