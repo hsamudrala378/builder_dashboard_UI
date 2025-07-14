@@ -1,4 +1,4 @@
-### Builder Dashboard – Full Stack Web Application
+# Builder Dashboard – Full Stack Web Application
 
 A functional, full-stack dashboard showcasing builder and property data with interactive tables, maps, and navigation.
 
@@ -23,33 +23,33 @@ Backend (Render): https://builder-dashboard-ui-1.onrender.com/
 
 ## Setup Instructions
 
-Backend (API Server)
+## Backend (API Server)
 
-# Navigate to backend folder:
+### Navigate to backend folder:
 
-cd backend_api
+cd server
 
 npm install
 
 node server.js
 
-# API Endpoints:
+### API Endpoints:
 
 /login – POST route for login
 
 /data – GET route serving dataset
 
-Frontend (React Dashboard)
+## Frontend (React Dashboard)
 
-# Navigate to frontend folder:
+### Navigate to frontend folder:
 
-cd react_dashboard_client
+cd client
 
 npm install
 
 npm run dev
 
-# Local Access:
+### Local Access:
 http://localhost:5173
 
 ## Key Features
