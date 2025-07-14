@@ -5,7 +5,7 @@ export default function Chatbot() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
-      //Toggle Button
+      
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg"
@@ -13,7 +13,7 @@ export default function Chatbot() {
         💬
       </button>
 
-      //Chatbox Panel
+      
       {isOpen && (
         <div className="w-72 h-96 mt-4 bg-white rounded shadow-lg flex flex-col overflow-hidden">
           <div className="bg-blue-600 text-white px-4 py-2 font-semibold">
