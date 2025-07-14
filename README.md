@@ -8,6 +8,7 @@ A functional, full-stack dashboard showcasing builder and property data with int
 -> Backend: Node.js, Express.js
 
 -> Deployment:
+               
                Frontend: Netlify
 
                Backend: Render
