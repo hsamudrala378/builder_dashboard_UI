@@ -5,7 +5,7 @@ export default function Table() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:4000/data')
+    fetch('https://builder-dashboard-ui-1.onrender.com/data')
       .then(res => res.json())
       .then(data => setData(data));
   }, []);
