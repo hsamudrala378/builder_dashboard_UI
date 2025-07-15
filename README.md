@@ -19,6 +19,11 @@ A functional, full-stack dashboard showcasing builder and property data with int
 
 Frontend (Netlify): https://builder-dashboard-ui.netlify.app/
 
+Login Credentials: 
+
+Mail: admin@example.com
+Password: admin123
+
 Backend (Render): https://builder-dashboard-ui-1.onrender.com/
 
 ## Setup Instructions
